@@ -28,11 +28,17 @@ A Fast way to make list views for navigation drawers
 ###Attributes:###
 
 **ysMenuItems:** The menu where the items for this listview are defined.
+
 **ysSpecialView:** This is a view you can put on top of the actual menu list (User information, for example)
+
 **ysMenuSeperaters:** The seperators are smaller than normal cells/items
+
 {$} := (Seperator|Group|Child)
+
 **ys{$}TextColor:** The text color of all the {$}
+
 **ys{$}TextSize:** The text size of all the {$}
+
 **ys{$}BackgroundColor:** The background color of all the {$}
 
 ###Example of Menu:(drawer_menu.xml)###
