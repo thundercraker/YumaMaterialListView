@@ -2,6 +2,27 @@
 
 A Fast way to make list views for navigation drawers
 
+###Usage in Android
+
+This libarry is available as a maven respository on Bintray, to use it in your Android Project add the repo to your respositories in the app.gradle file
+
+```gradle
+repositories {
+  maven {
+    url 'https://dl.bintray.com/yumashish/maven'
+  }
+}
+```
+
+Then you can add the library itself
+
+```gradle
+dependancies {
+  //various other libraries
+  compile 'com.yumashish.yumamateriallistview:yumamateriallistview:1.0.1@arr'
+}
+```
+
 ###Example of usage in layout XML:###
 
 ```xml
