@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YumaMaterialListView">
+        <attr name="ysMenuItems" format="reference"></attr>
+        <attr name="ysMenuSeperators" format="reference"></attr>
+        <attr name="ysSpecialView" format="reference"></attr>
+
+        <attr name="ysSeperatorTextColor" format="color"></attr>
+        <attr name="ysSeperatorTextSize" format="dimension"></attr>
+        <attr name="ysSeperatorBackgroundColor" format="color"></attr>
+
+        <attr name="ysGroupTextColor" format="color"></attr>
+        <attr name="ysGroupTextSize" format="dimension"></attr>
+        <attr name="ysGroupBackgroundColor" format="color"></attr>
+
+        <attr name="ysChildTextColor" format="color"></attr>
+        <attr name="ysChildTextSize" format="dimension"></attr>
+        <attr name="ysChildBackgroundColor" format="color"></attr>
+    </declare-styleable>
+</resources>
