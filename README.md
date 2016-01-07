@@ -31,7 +31,7 @@ A Fast way to make list views for navigation drawers
 
 **ysSpecialView:** This is a view you can put on top of the actual menu list (User information, for example)
 
-**ysMenuSeperaters:** The seperators are smaller than normal cells/items
+**ysMenuSeperators:** The seperators are smaller than normal cells/items
 
 {$} := (Seperator|Group|Child)
 
@@ -56,6 +56,15 @@ A Fast way to make list views for navigation drawers
         </menu>
     </item>
 </menu>
+```
+
+To define the seperators we create a string array having the string ids of the serperator rows (strings.xml)
+
+```xml
+<string-array name="drawer_categories_seperators">
+     <item>first</item>
+     <item>fourth</item>
+</string-array>
 ```
 
 ###Handling Menu Touch and Long Touch###
